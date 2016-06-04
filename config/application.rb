@@ -20,7 +20,7 @@ module Zips
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    #bootstrap mongoid within applications -- like
+    #bootstrap mongoid within applications
     Mongoid.load!('./config/mongoid.yml')
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
